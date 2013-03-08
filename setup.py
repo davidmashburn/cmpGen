@@ -9,7 +9,7 @@ setup(
     scripts=[],
     url='http://pypi.python.org/pypi/cmpGen/',
     license='LICENSE.txt',
-    description='',
+    description='cmpGen (comparator generator) is a very simple utility to aid in sorting',
     long_description=open('README.rst').read(),
     install_requires=[],
 )
