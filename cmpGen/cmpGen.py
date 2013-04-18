@@ -1,4 +1,16 @@
-"""cmpGen is a very simple utility to aid in sorting.
+"""cmpGen is deprecated.
+Please just use the "key" parameter of sort/sorted instead.
+It is better in every conceivable way (faster, simpler, more legible, etc.)
+
+For example, here is the example below, but entirely using "key" instead:
+
+l=[3,0,1,-2,4,3,-5]
+l.sort(key=abs)
+l now is [0,1,-2,3,3,4,-5]
+
+Old docstring for reference:
+----------------------------
+cmpGen is a very simple utility to aid in sorting.
 Basically, I often want to sort a list based on a specific property
 or more generically a function of the values in the list.
 cmpGen acts as a middle layer to make this process simple.
