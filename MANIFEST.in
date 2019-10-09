@@ -1,2 +1,4 @@
 include *.txt
 include *.rst
+include versioneer.py
+include cmpGen/_version.py
