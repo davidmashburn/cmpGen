@@ -8,7 +8,8 @@ l=[3,0,1,-2,4,3,-5]
 l.sort(key=abs)
 l now is [0,1,-2,3,3,4,-5]
 
-This pakage is now here just to support legacy version of packages that used this
+This pakage is now here just to support legacy version of packages that used this.
+Again, please don't use this package :)
 
 
 Old README for reference:
